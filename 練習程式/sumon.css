@@ -1,0 +1,18 @@
+.s1{
+    border: 4px solid #f6b710;
+}
+.s2{
+    border: 7px solid #c51e73;
+    margin: -1220px auto;
+}
+th{
+    background: #32e6bc;
+    background-color: #7e52f7;
+    margin: 2px;
+
+}
+td{
+    background: #f6f226;
+    background-color: aqua;
+    margin: 4px;
+}
