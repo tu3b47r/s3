@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 70px;
+    padding: 15px;
+    background: #9e4aa2;
+    color: #f8ee31;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.w2{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.w2 > li{
+    margin-left: 17px;
+    overflow: hidden;
+}
+.hamburger-icom{
+    width: 45px;
+    height: 7px;
+    background: #b3b422 ;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    transition: transform 190ms;
+}
+
