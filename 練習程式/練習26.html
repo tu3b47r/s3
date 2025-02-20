@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta charset="viewport" content="width=device-width,initial-scale=1">
+        <title>練習26</title>
+
+        <script>
+        /*這是設定JavaScript之標籤*/
+
+            function shoM2(){
+                var userN2 = prompt("請輸入您的名字(匿名)","");
+                alert(userN2 + "您好~you win!");
+            }
+            function CtoF(c1){
+                var f1 = c1 * 1.8 + 32;
+                alert("攝氏" + c1 +"度轉換為華氏" + f1 + "度");
+            }
+            var t1 = prompt("請輸入攝氏溫度:","");
+            CtoF(t1);
+            /*這是當呼叫函式時，同時要將輸入數值的變數也放入*/
+
+            function shoM3(){
+                window.alert(n1);
+            }
+
+            var n1 = '哈哈';
+            shoM3();
+            window.alert(n1);
+
+            var n2 = prompt("請輸入一個數字:","");
+            if(n2 >= 90)
+                alert("恭喜! 您獲得4000元");
+            else if(n2 < 90 && n2 >= 80)
+                alert("恭喜! 您獲得3000元");
+            else if(n2 < 80 && n2 >= 70)
+                alert("恭喜! 您獲得2000元");
+            else if(n2 < 70 && n2 >= 60)
+                alert("恭喜! 您獲得1000元");
+            else
+                alert("無法獲得"); 
+        </script>
+    </head>
+    <body onload="javascript:shoM2();">
+
+        <a href="javascript:window.alert('您好!!! , Guuo');">顯示訊息</a>
+    </body>
+</html>
