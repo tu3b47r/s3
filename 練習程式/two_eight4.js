@@ -1,18 +1,13 @@
-function chang(){  //滑鼠過去時，會切換顏色的函式
-    var m1=document.getElementById('m1');
+function changecolor (){
+    var tle1 = document.getElementById('tle1');
+    var ra1 = document.getElementByName('color');
 
-    m1.style.color ='blue';
-    //把文字變成藍色
-
-    m1.style.backgroundColor='green';
-    //將文字框背景顏色設定綠色
-}
-
-function res(){   //滑鼠離開時，會還原原本顏色的函式
-    var m1=document.getElementById('m1');
-
-    m1.style.color='';
-
-
-    m1.style.backgroundColor='orange';
+    var sent1;
+    for(var u = 0;ra1.lenght;u++){
+        if(ra1[i].checked){
+            sent1 = ra1[i].value;
+            break;
+        }
+    }
+    tle1.style.color = sent1;
 }
