@@ -1,5 +1,3 @@
-var i2 = document.getElementById('b7');
-/*這是用JavaScript寫一個指定id=b7的項目存入
-新增的變數之程式語法*/
-
-document.write('項目:' + i2.textContent);
+var m4 = document.getElementById('m4');
+var n1 = window.prompt('請輸入您的名字：')；
+m4.textContent = n1 + '您好！ you UNO!';
