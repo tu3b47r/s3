@@ -6,6 +6,9 @@
 
         <script>
             document.write("<p>" + "瀏覽歷程記錄次數:" + his.length +"</p>");
+
+            for(let prop1 in window.location)
+                document.write(prop1 + ':' + window.location[prop1] + '<br>');
         </script>
         <title>練習32</title>
     </head>
@@ -24,6 +27,14 @@
         頁函式之標籤*/
         
         <a href="javascript:his.forward();">下一頁</a>
-        
+
+        <a href="javascript:prop1.reload();">重新開</a>
+        <a href="javascript:prop1.replace('練習31.html');">練習31</a>
+
+        <script src="three_two1.js"></script>
+
+        <a href="javascript:openneW();">開啟新的視窗</a>
+        <a href="javascript:closeneW();">關閉視窗</a>
+        <script src="three_two2.js"></script>
     </body>
 </html>
