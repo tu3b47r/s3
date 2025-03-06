@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+            document.write("<p>" + "瀏覽歷程記錄次數:" + his.length +"</p>");
+        </script>
         <title>練習32</title>
     </head>
     <body>
@@ -14,5 +18,12 @@
             <li>作文</li>
         </ul>
         <script src="three_two.js"></script>
+
+        <a href="javascript:his.back();">上一頁</a>
+        /*這是用來設定一個連結為呼叫用javascript寫的上一
+        頁函式之標籤*/
+        
+        <a href="javascript:his.forward();">下一頁</a>
+        
     </body>
 </html>
