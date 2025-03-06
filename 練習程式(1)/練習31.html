@@ -3,7 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <script>
+            for(let pro in window.nagivator)
+                document.write(pro + ":" +window.nagivator[pro] + <br>);
+        </script>
+        
         <link rel="stylesheet" href="three_one.css">
         <title>練習31</title>
     </head>
@@ -73,5 +77,14 @@
             <li>地科講義</li>
         </ul>
         <script src="three_one9.js"></script>
+
+        <form id="myf1">
+            <label for="usen1">姓名：</label>
+            <input type="text" id="usen1">
+            <input type="submit">
+        </form>
+        <script src="three_one10.js"></script>
+
+        <script src="three_one11.js"></script>
     </body>
 </html>
