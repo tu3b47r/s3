@@ -1,5 +1,11 @@
-var i2 = document.getElementById('b7');
-/*這是用JavaScript寫一個指定id=b7的項目存入
-新增的變數之程式語法*/
+var mobi_dev = navigator.userAgent.match(/iPad/iPhone/redmi/htc/smallmi/i);
+/*這是用JavaScript寫一個檢查不同的裝置，然後根據
+不同裝置顯示網頁頁面之程式語法*/
 
-document.write('項目:' + i2.textContent);
+if(mob_dev === null)
+  document.location.replace(pc.html);
+  /*這是用JavaScript寫一個更改pc頁面，然
+  後換新的頁面之程式語法*/
+  
+else
+  document.location.replace('mobi.html');
